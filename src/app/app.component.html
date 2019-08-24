@@ -1,40 +1,42 @@
 <div class="container-fluid">
     <div class="header ">
-        <div class="row">
-            <div class="col-lg-2 col-md-2col-sm-12 col-xs-12">
-                <!-- Brand/logo -->
-                <a class="" href="#">
-                    <img src="../assets/images/wiproicon.png" alt="logo" style="width:60px;position:relative;left: 1.2vw;">
-                </a>
-                <!-- <div class="line">|</div> -->
-                <a class="" href="#">
-                    <img src="../assets/images/golglogo.png" alt="logo" style="width: 40px;
-                    position: relative;
-                    left: 1.2vw;">
-                    <small class="text" style="font-family: Arial, Helvetica, sans-serif;font-weight: 600">Wipro Alumini</small>
-                </a>
+        <div class="left-menu">
+            <!-- Brand/logo -->
+            <div class="logo">
+                <div class="img">
+                    <img src="../assets/images/wiproicon.png" alt="logo" width="60" height="40">
+                </div>
             </div>
-            <div class="col-lg-10 col-md-10 col-xs-12 col-sm-12 pull-right-custom">
-                <div class="navigation">
-                    <!-- Menu -->
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Email</a></li>
-                    </ul>
-                </div>
-                <div class="search-profile-notification">
-                    <div class="search"><span class="fa fa-search"></span></div>
-                    <div class="notification"><span class="fa fa-bell"><sup>2</sup></span></div>
-                    <div class="profile">
-                        <div class="profile-image">
-                            <img src="../assets/images/vidya.jpg" alt="dd">
-                        </div>
-                        <div>John Smith</div>
-                    </div>
-                </div>
+            <!-- Vertical-Line -->
+            <div class="line"></div>
+            <!-- name -->
+            <div class="name">
+                <img src="../assets/images/golglogo.png" alt="logo" width="30px" class="img1">
+                <small class="text">Wipro Alumini</small>
             </div>
         </div>
+        <div class="middle-menu">
+            <div class="navigation">
+                <!-- Menu -->
+                <ul>
+                    <li><a routerLink="home" routerLinkActive="active">Home</a></li>
+                    <li><a routerLink="selfservice" routerLinkActive="active">Self Service</a></li>
+                    <li><a routerLink="engage" routerLinkActive="active">Engage</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right-Menu Starts Here -->
+        <div class="search-profile-notification">
+            <div class="search"><span class="fa fa-search"></span></div>
+            <div class="notification"><span class="fa fa-bell"></span></div>
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="../assets/images/vidya.jpg" alt="dd" width="40">
+                </div>
+                <div>John Smith</div>
+            </div>
+        </div>
+        <!-- Right-Menu Ends Here -->
     </div>
     <div class="jumbo">
         <!-- Jumbotron Starts Here-->
@@ -47,20 +49,20 @@
         </div>
         <!-- Jumbotron Ends Here-->
     </div>
-    <div class="sec-nav">
+    <!-- <div class="sec-nav">
         <div class="nav">
             <ol>
                 <li><a routerLink="currentopenings" routerLinkActive="active">Current openings</a></li>
                 <li><a routerLink="refer" routerLinkActive="active">Refer</a></li>
             </ol>
         </div>
-    </div>
+    </div> -->
 
     <div class="section">
         <router-outlet></router-outlet>
     </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="txt1">
             <ul class="navi">
                 <li>Terms of Use</li>
@@ -75,5 +77,5 @@
             <div class="con2">Use GoogleChrome or Safari for best Experience</div>
         </div>
 
-    </div>
+    </div> -->
 </div>
