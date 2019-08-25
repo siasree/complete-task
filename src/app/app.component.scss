@@ -86,6 +86,15 @@
             }
             .notification {
                 padding-left: 3vw;
+                .header-notification {
+                    height: 7px;
+                    width: 7px;
+                    background: red;
+                    right: 148px;
+                    position: absolute;
+                    top: 18px;
+                    border-radius: 50%;
+                }
             }
             .profile {
                 padding-left: 3vw;
@@ -129,10 +138,70 @@
     }
     .section {
         display: flex;
-        flex: 1 90%;
+        flex: 1 80%;
         box-shadow: 4px 1px 2px 5px #bbb8b8;
-        overflow: auto;
+        // overflow: auto;
         background-color: #fafbfc;
+    }
+    .footer {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: darkblue;
+        .txt1 {
+            display: flex;
+            flex: 1;
+            padding: 0.5vw;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid red;
+            ul {
+                list-style-type: none;
+                margin-bottom: 0;
+                margin-top: 0;
+                li {
+                    display: inline;
+                    margin: 4.5vw;
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+        }
+        .txt2 {
+            display: flex;
+            flex: 1;
+            padding: 0.5vw;
+            flex-direction: row;
+            // border: 1px solid blue;
+            .con {
+                display: flex;
+                flex: 1;
+            }
+            .con2 {
+                display: flex;
+                flex: 1;
+                color: white;
+                font-size: 14px;
+                opacity: 0.5;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+            .con1 {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-family: monospace;
+                font-size: 16px;
+                .v1 {
+                    border-left: 1px solid gray;
+                    height: 40px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+            }
+        }
     }
 }
 

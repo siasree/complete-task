@@ -1,5 +1,7 @@
 <div class="container-fluid">
+    <!-- Header Starts Here -->
     <div class="header ">
+        <!-- Left-Menu Starts  Here -->
         <div class="left-menu">
             <!-- Brand/logo -->
             <div class="logo">
@@ -15,6 +17,9 @@
                 <small class="text">Wipro Alumini</small>
             </div>
         </div>
+        <!-- Left-Menu Ends Here -->
+
+        <!-- Middle-Menu Starts Here -->
         <div class="middle-menu">
             <div class="navigation">
                 <!-- Menu -->
@@ -25,10 +30,14 @@
                 </ul>
             </div>
         </div>
+        <!-- Middle-Menu Ends Here -->
         <!-- Right-Menu Starts Here -->
         <div class="search-profile-notification">
             <div class="search"><span class="fa fa-search"></span></div>
-            <div class="notification"><span class="fa fa-bell"></span></div>
+            <div class="notification"><span class="fa fa-bell">
+                <span class="header-notification"></span>
+                </span>
+            </div>
             <div class="profile">
                 <div class="profile-image">
                     <img src="../assets/images/vidya.jpg" alt="dd" width="40">
@@ -38,6 +47,7 @@
         </div>
         <!-- Right-Menu Ends Here -->
     </div>
+    <!-- Header Ends Here -->
     <div class="jumbo">
         <!-- Jumbotron Starts Here-->
         <div class="jumbotron text-center container-fluid" style="height: 250px;">
@@ -49,20 +59,14 @@
         </div>
         <!-- Jumbotron Ends Here-->
     </div>
-    <!-- <div class="sec-nav">
-        <div class="nav">
-            <ol>
-                <li><a routerLink="currentopenings" routerLinkActive="active">Current openings</a></li>
-                <li><a routerLink="refer" routerLinkActive="active">Refer</a></li>
-            </ol>
-        </div>
-    </div> -->
-
+    <!-- Section Starts Here -->
     <div class="section">
         <router-outlet></router-outlet>
     </div>
+    <!-- Section Ends Here -->
 
-    <!-- <div class="footer">
+    <!-- Footer Starts Here -->
+    <div class="footer">
         <div class="txt1">
             <ul class="navi">
                 <li>Terms of Use</li>
@@ -73,9 +77,9 @@
         </div>
         <div class="txt2">
             <div class="con"></div>
-            <div class="con1"> ©2019 Wipro Limited | All Rights Reserved</div>
+            <div class="con1"> ©2019 Wipro Limited <span class="v1"></span> All Rights Reserved</div>
             <div class="con2">Use GoogleChrome or Safari for best Experience</div>
         </div>
-
-    </div> -->
+    </div>
+    <!-- Footer Ends Here -->
 </div>
