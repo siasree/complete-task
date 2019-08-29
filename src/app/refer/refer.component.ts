@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ReferComponent implements OnInit {
 
   constructor() { }
+  fileUploads(event){
 
+  }
   ngOnInit() {
   }
 

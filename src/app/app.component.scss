@@ -6,9 +6,15 @@
     padding: 0;
     display: flex;
     flex-direction: column;
+    .header-sec {
+        display: flex;
+        flex: 10%;
+        flex-direction: column;
+        // border: 2px solid red;
+    }
     .header {
         display: flex;
-        flex: 1 10%;
+        flex: 1;
         flex-direction: row;
         // border: 2px solid red;
         .left-menu {
@@ -115,6 +121,8 @@
         }
     }
     .jumbotron {
+        display: flex;
+        flex: 1;
         background-image: url("../assets/images/bgimage.jpg");
         box-sizing: content-box;
         border-radius: 0px;
@@ -139,13 +147,13 @@
     .section {
         display: flex;
         flex: 1 80%;
-        box-shadow: 4px 1px 2px 5px #bbb8b8;
-        // overflow: auto;
+        // box-shadow: 4px 1px 2px 5px #bbb8b8;
+        overflow: auto;
         background-color: #fafbfc;
     }
     .footer {
         display: flex;
-        flex: 1;
+        flex: 1 10%;
         flex-direction: column;
         background-color: darkblue;
         .txt1 {

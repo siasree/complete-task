@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { SelfserviceComponent } from './selfservice/selfservice.component';
 import { EngageComponent } from './engage/engage.component';
 
+import { FileUpload } from 'ng2-fileupload';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,8 @@ import { EngageComponent } from './engage/engage.component';
     ReferComponent,
     HomeComponent,
     SelfserviceComponent,
-    EngageComponent
+    EngageComponent,
+    FileUpload
   ],
   imports: [
     BrowserModule,
